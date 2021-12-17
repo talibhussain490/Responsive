@@ -1,0 +1,174 @@
+body{
+    margin: 8%;
+    padding: 0%;
+    display: block;
+    background: rgb(57, 94, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main-content{
+     position: relative;
+     width: 90%;
+     min-height: 1000px;
+     max-width: 1000%;
+     display: grid;
+     grid-template-columns: 300px 700px;
+     background: #fff
+}
+
+.left-section{
+    position: relative;
+    background: #3e4547;
+
+}
+
+.right-section{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.profilepicture{
+    display: block;
+    padding: 1rem;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    border: 5px white solid;
+    border-radius: 30%;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    
+}
+
+.Designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:0.5rem;  
+}
+
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.left-content{
+    padding: 1em;
+    margin: auto;
+    border-bottom: 4cm;
+
+}
+
+#icons{
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.contact{
+    text-align: center;
+    font-size: small;
+}
+
+.skills .box{
+    position: relative;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.skillss{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: -27px;
+}
+
+.skills .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: #fff;
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.para{
+    padding: 0.5rem;
+}
+.box{
+    display: flex;
+}
+.box>.text{
+    padding: 0.5rem;
+}
+.box>.text{
+    padding: 0.5rem;
+}
+h6{
+    margin-top: 10px;
+}
+.box .year{
+    min-width: 150px;
+}
+.projects{
+    padding: 0.5rem;
+}
+
+@media (max-width: 673px){
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        min-height: 1000px;
+    }
+}
+
+
+
+
